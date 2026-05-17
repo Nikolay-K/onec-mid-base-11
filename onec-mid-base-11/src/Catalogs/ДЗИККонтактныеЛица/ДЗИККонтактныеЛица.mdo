@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e51fb0b0-7573-4e05-b8f0-e051be98617a">
+  <producedTypes>
+    <objectType typeId="73f49acc-275b-4116-aded-40d4aaf86fea" valueTypeId="1954e50b-1044-464a-9ee2-020846da524a"/>
+    <refType typeId="4b1ff868-5617-427f-afd0-b096b2b6eb17" valueTypeId="31e6a10f-4b74-4421-9609-51c935c7b91f"/>
+    <selectionType typeId="f5522c27-6036-49f1-91a0-b0c7ac418f8b" valueTypeId="d4504812-dbd2-424e-9007-bf3e496891f9"/>
+    <listType typeId="33a8c4a8-37cf-442a-8e81-3bb1608148c0" valueTypeId="fa88fa36-7ee5-45fa-8c5e-389b6d8c2b96"/>
+    <managerType typeId="c6558a22-8c68-4be0-87e5-02dcbd758b3e" valueTypeId="bded157d-dd63-48b2-8356-d86e06d54a14"/>
+  </producedTypes>
+  <name>ДЗИККонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗИККонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДЗИККонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
